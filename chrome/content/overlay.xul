@@ -1,0 +1,189 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://browser/skin/" type="text/css" ?>
+<?xml-stylesheet href="chrome://phpkod/skin/" type="text/css" ?>
+
+<!DOCTYPE overlay SYSTEM "chrome://phpkod/locale/" [
+
+	<!--
+		Skall flyttas till chrome://phpkod/locale/
+	-->
+	<!ENTITY % text SYSTEM "text.dtd">
+	%text;
+
+	<!--
+		Smiliesmenyn används på två ställen.
+		Detta ger ett problem... Samma id används två gånger.
+		Men men... det fungerar, så jag låter det vara så länge.
+	-->
+	<!ENTITY % smilies-menu SYSTEM "smilies-menu.dtd">
+	%smilies-menu;
+]>
+
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="handler.js" />
+
+	<commandset id="mainCommandSet">
+		<command id="phpkod-cmd-home" label="&phpkod.home;" oncommand="phpkod.home()" />
+		<command id="phpkod-cmd-php" label="&phpkod.php;" oncommand="phpkod.insert('php')" />
+		<command id="phpkod-cmd-code" label="&phpkod.code;" oncommand="phpkod.insert('code')" />
+		<command id="phpkod-cmd-inline" label="&phpkod.inline;" oncommand="phpkod.insert('inline')" />
+		<command id="phpkod-cmd-man" label="&phpkod.man;" oncommand="phpkod.insert('man')" />
+		<command id="phpkod-cmd-url" label="&phpkod.url;" oncommand="phpkod.insert('url')" />
+		<command id="phpkod-cmd-bold" label="&phpkod.bold;" oncommand="phpkod.insert('bold')" />
+		<command id="phpkod-cmd-italic" label="&phpkod.italic;" oncommand="phpkod.insert('italic')" />
+		<command id="phpkod-cmd-underline" label="&phpkod.underline;" oncommand="phpkod.insert('underline')" />
+
+		<command id="phpkod-cmd-color" label="&phpkod.color;" oncommand="phpkod.insert('color')" />
+		<command id="phpkod-cmd-color-red" label="&phpkod.color.red;" oncommand="phpkod.insert('color', 'red')" />
+		<command id="phpkod-cmd-color-blue" label="&phpkod.color.blue;" oncommand="phpkod.insert('color', 'blue')" />
+		<command id="phpkod-cmd-color-green" label="&phpkod.color.green;" oncommand="phpkod.insert('color', 'green')" />
+		<command id="phpkod-cmd-color-white" label="&phpkod.color.white;" oncommand="phpkod.insert('color', 'white')" />
+
+		<command id="phpkod-cmd-size" label="&phpkod.size;" oncommand="phpkod.insert('size')" />
+		<command id="phpkod-cmd-size-tiny" label="&phpkod.size.tiny;" oncommand="phpkod.insert('size', 'tiny')" />
+		<command id="phpkod-cmd-size-small" label="&phpkod.size.small;" oncommand="phpkod.insert('size', 'small')" />
+		<command id="phpkod-cmd-size-normal" label="&phpkod.size.normal;" oncommand="phpkod.insert('size', 'normal')" />
+		<command id="phpkod-cmd-size-large" label="&phpkod.size.large;" oncommand="phpkod.insert('size', 'large')" />
+		<command id="phpkod-cmd-size-huge" label="&phpkod.size.huge;" oncommand="phpkod.insert('size', 'huge')" />
+
+		<command id="phpkod-cmd-quote" label="&phpkod.quote;" oncommand="phpkod.insert('quote')" />
+		<command id="phpkod-cmd-img" label="&phpkod.img;" oncommand="phpkod.insert('img')" />
+		<command id="phpkod-cmd-welcome" label="&phpkod.welcome;" oncommand="phpkod.insert('welcome')" />
+		<command id="phpkod-cmd-list" label="&phpkod.list;" oncommand="phpkod.insert('list')" />
+
+		<command id="phpkod-cmd-smilies" label="&phpkod.smilies;" />
+		<command id="phpkod-cmd-smilie-veryhappy" label="&phpkod.smilie.veryhappy;" oncommand="phpkod.insert('smilie', 'veryhappy')" />
+		<command id="phpkod-cmd-smilie-smile" label="&phpkod.smilie.smile;" oncommand="phpkod.insert('smilie', 'smile')" />
+		<command id="phpkod-cmd-smilie-sad" label="&phpkod.smilie.sad;" oncommand="phpkod.insert('smilie', 'sad')" />
+		<command id="phpkod-cmd-smilie-surprised" label="&phpkod.smilie.surprised;" oncommand="phpkod.insert('smilie', 'surprised')" />
+		<command id="phpkod-cmd-smilie-shocked" label="&phpkod.smilie.shocked;" oncommand="phpkod.insert('smilie', 'shocked')" />
+		<command id="phpkod-cmd-smilie-confused" label="&phpkod.smilie.confused;" oncommand="phpkod.insert('smilie', 'confused')" />
+		<command id="phpkod-cmd-smilie-cool" label="&phpkod.smilie.cool;" oncommand="phpkod.insert('smilie', 'cool')" />
+		<command id="phpkod-cmd-smilie-laughing" label="&phpkod.smilie.laughing;" oncommand="phpkod.insert('smilie', 'laughing')" />
+		<command id="phpkod-cmd-smilie-mad" label="&phpkod.smilie.mad;" oncommand="phpkod.insert('smilie', 'mad')" />
+		<command id="phpkod-cmd-smilie-razz" label="&phpkod.smilie.razz;" oncommand="phpkod.insert('smilie', 'razz')" />
+		<command id="phpkod-cmd-smilie-embarassed" label="&phpkod.smilie.embarassed;" oncommand="phpkod.insert('smilie', 'embarassed')" />
+		<command id="phpkod-cmd-smilie-verysad" label="&phpkod.smilie.verysad;" oncommand="phpkod.insert('smilie', 'verysad')" />
+		<command id="phpkod-cmd-smilie-verymad" label="&phpkod.smilie.verymad;" oncommand="phpkod.insert('smilie', 'verymad')" />
+		<command id="phpkod-cmd-smilie-twistedevil" label="&phpkod.smilie.twistedevil;" oncommand="phpkod.insert('smilie', 'twistedevil')" />
+		<command id="phpkod-cmd-smilie-rollingeyes" label="&phpkod.smilie.rollingeyes;" oncommand="phpkod.insert('smilie', 'rollingeyes')" />
+		<command id="phpkod-cmd-smilie-wink" label="&phpkod.smilie.wink;" oncommand="phpkod.insert('smilie', 'wink')" />
+		<command id="phpkod-cmd-smilie-exclamation" label="&phpkod.smilie.exclamation;" oncommand="phpkod.insert('smilie', 'exclamation')" />
+		<command id="phpkod-cmd-smilie-question" label="&phpkod.smilie.question;" oncommand="phpkod.insert('smilie', 'question')" />
+		<command id="phpkod-cmd-smilie-idea" label="&phpkod.smilie.idea;" oncommand="phpkod.insert('smilie', 'idea')" />
+		<command id="phpkod-cmd-smilie-arrow" label="&phpkod.smilie.arrow;" oncommand="phpkod.insert('smilie', 'arrow')" />
+		<command id="phpkod-cmd-smilie-neutral" label="&phpkod.smilie.neutral;" oncommand="phpkod.insert('smilie', 'neutral')" />
+		<command id="phpkod-cmd-smilie-mrgreen" label="&phpkod.smilie.mrgreen;" oncommand="phpkod.insert('smilie', 'mrgreen')" />
+		<command id="phpkod-cmd-smilie-semula" label="&phpkod.smilie.semula;" oncommand="phpkod.insert('smilie', 'semula')" />
+	</commandset>
+
+	<popup id="contentAreaContextMenu">
+
+		<menu id="phpkod-popup" label="&phpkod;" position="1" class="menu-iconic">
+			<menupopup>
+				<menuitem id="phpkod-popup-php" command="phpkod-cmd-php" />
+				<menuitem id="phpkod-popup-code" command="phpkod-cmd-code" />
+				<menuitem id="phpkod-popup-inline" command="phpkod-cmd-inline" />
+				<menuitem id="phpkod-popup-url" command="phpkod-cmd-url" />
+				<menuitem id="phpkod-popup-man" command="phpkod-cmd-man" />
+				
+				<menuseparator />
+
+				<menuitem id="phpkod-popup-bold" command="phpkod-cmd-bold" />
+				<menuitem id="phpkod-popup-italic" command="phpkod-cmd-italic" />
+				<menuitem id="phpkod-popup-underline" command="phpkod-cmd-underline" />
+				<!-- menuitem id="phpkod-popup-color" command="phpkod-cmd-color" / -->
+				<menu id="phpkod-popup-color" command="phpkod-cmd-color">
+					<menupopup>
+						<menuitem id="phpkod-popup-color-blue" command="phpkod-cmd-color-blue" />
+						<menuitem id="phpkod-popup-color-red" command="phpkod-cmd-color-red" />
+						<menuitem id="phpkod-popup-color-green" command="phpkod-cmd-color-green" />
+						<menuitem id="phpkod-popup-color-white" command="phpkod-cmd-color-white" />
+					</menupopup>
+				</menu>
+				<menu id="phpkod-popup-size" command="phpkod-cmd-size">
+					<menupopup>
+						<menuitem id="phpkod-popup-size-tiny" command="phpkod-cmd-size-tiny" />
+						<menuitem id="phpkod-popup-size-small" command="phpkod-cmd-size-small" />
+						<menuitem id="phpkod-popup-size-normal" command="phpkod-cmd-size-normal" />
+						<menuitem id="phpkod-popup-size-large" command="phpkod-cmd-size-large" />
+						<menuitem id="phpkod-popup-size-huge" command="phpkod-cmd-size-huge" />
+					</menupopup>
+				</menu>
+				
+				<menuseparator />
+				
+				<menuitem id="phpkod-popup-quote" command="phpkod-cmd-quote" />
+				<menuitem id="phpkod-popup-list" command="phpkod-cmd-list" />
+				<menuitem id="phpkod-popup-img" command="phpkod-cmd-img" />
+				<menuitem id="phpkod-popup-welcome" command="phpkod-cmd-welcome" />
+
+				<menu id="phpkod-popup-smilies" class="menu-iconic" command="phpkod-cmd-smilies">
+					&phpkod-smilies-menu;
+				</menu>
+			</menupopup>
+		</menu>
+	
+	</popup>
+
+
+	<!-- Knappar -->
+	<toolbarpalette id="BrowserToolbarPalette">
+      	<toolbarbutton	id="phpkod-button-home"	command="phpkod-cmd-home" />
+      	<toolbarbutton	id="phpkod-button-php"	command="phpkod-cmd-php" />
+      	<toolbarbutton	id="phpkod-button-code"	command="phpkod-cmd-code" />
+      	<toolbarbutton	id="phpkod-button-inline"	command="phpkod-cmd-inline" />
+      	<toolbarbutton	id="phpkod-button-man"	command="phpkod-cmd-man" />
+
+      	<toolbarbutton	id="phpkod-button-welcome"	command="phpkod-cmd-welcome" />
+
+      	<toolbarbutton	id="phpkod-button-bold"	command="phpkod-cmd-bold" />
+      	<toolbarbutton	id="phpkod-button-italic"	command="phpkod-cmd-italic" />
+      	<toolbarbutton	id="phpkod-button-underline"	command="phpkod-cmd-underline" />
+      	<toolbarbutton	id="phpkod-button-color"	command="phpkod-cmd-color" type="menu">
+			<menupopup>
+				<menuitem id="phpkod-popup-color-blue" command="phpkod-cmd-color-blue" />
+				<menuitem id="phpkod-popup-color-red" command="phpkod-cmd-color-red" />
+				<menuitem id="phpkod-popup-color-green" command="phpkod-cmd-color-green" />
+				<menuitem id="phpkod-popup-color-white" command="phpkod-cmd-color-white" />
+			</menupopup>
+		</toolbarbutton>
+      	<toolbarbutton	id="phpkod-button-size"	command="phpkod-cmd-size" type="menu">
+			<menupopup>
+				<menuitem id="phpkod-popup-size-tiny" command="phpkod-cmd-size-tiny" />
+				<menuitem id="phpkod-popup-size-small" command="phpkod-cmd-size-small" />
+				<menuitem id="phpkod-popup-size-normal" command="phpkod-cmd-size-normal" />
+				<menuitem id="phpkod-popup-size-large" command="phpkod-cmd-size-large" />
+				<menuitem id="phpkod-popup-size-huge" command="phpkod-cmd-size-huge" />
+			</menupopup>
+      	</toolbarbutton>
+
+      	<toolbarbutton	id="phpkod-button-quote"	command="phpkod-cmd-quote" />
+      	<toolbarbutton	id="phpkod-button-img"	command="phpkod-cmd-img" />
+      	<toolbarbutton	id="phpkod-button-url"	command="phpkod-cmd-url" />
+      	<toolbarbutton	id="phpkod-button-list"	command="phpkod-cmd-list" />
+      	<toolbarbutton	id="phpkod-button-smilies"	command="phpkod-cmd-smilies" type="menu">
+			&phpkod-smilies-menu;
+      	</toolbarbutton>
+	</toolbarpalette>
+
+	<!-- Verktygsfaltet -->
+	<toolbox id="navigator-toolbox">
+      	<toolbar 
+			id="phpkod" 
+			toolbarname="&phpkod.toolbar.name;" 
+			accesskey="P" 
+			class="chromeclass-toolbar" 
+			context="toolbar-context-menu" 
+			customizable="true" 
+			hidden="false" 
+			iconsize="small" 
+			inherits="collapsed,hidden" 
+			persist="collapsed,hidden" 
+			mode="full" 
+			defaultset="phpkod-button-home,separator,phpkod-button-php,phpkod-button-code,phpkod-button-inline,phpkod-button-url,phpkod-button-urlclip,phpkod-button-man,separator,phpkod-button-bold,phpkod-button-italic,phpkod-button-underline,phpkod-button-color,phpkod-button-size,separator,phpkod-button-quote,phpkod-button-list,phpkod-button-img,phpkod-button-welcome,phpkod-button-smilies" />
+	</toolbox>
+
+</overlay>

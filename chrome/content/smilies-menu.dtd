@@ -1,0 +1,28 @@
+	<!-- Smilies-menyn -->
+	<!ENTITY phpkod-smilies-menu '
+		<menupopup>
+			<menuitem id="phpkod-popup-smilie-veryhappy" command="phpkod-cmd-smilie-veryhappy" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-smile" command="phpkod-cmd-smilie-smile" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-sad" command="phpkod-cmd-smilie-sad" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-surprised" command="phpkod-cmd-smilie-surprised" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-shocked" command="phpkod-cmd-smilie-shocked" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-confused" command="phpkod-cmd-smilie-confused" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-cool" command="phpkod-cmd-smilie-cool" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-laughing" command="phpkod-cmd-smilie-laughing" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-mad" command="phpkod-cmd-smilie-mad" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-razz" command="phpkod-cmd-smilie-razz" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-embarassed" command="phpkod-cmd-smilie-embarassed" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-verysad" command="phpkod-cmd-smilie-verysad" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-verymad" command="phpkod-cmd-smilie-verymad" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-twistedevil" command="phpkod-cmd-smilie-twistedevil" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-rollingeyes" command="phpkod-cmd-smilie-rollingeyes" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-wink" command="phpkod-cmd-smilie-wink" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-neutral" command="phpkod-cmd-smilie-neutral" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-mrgreen" command="phpkod-cmd-smilie-mrgreen" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-exclamation" command="phpkod-cmd-smilie-exclamation" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-question" command="phpkod-cmd-smilie-question" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-idea" command="phpkod-cmd-smilie-idea" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-arrow" command="phpkod-cmd-smilie-arrow" class="menuitem-iconic" />
+			<menuitem id="phpkod-popup-smilie-semula" command="phpkod-cmd-smilie-semula" class="menuitem-iconic" />
+		</menupopup>
+	'>

@@ -1,0 +1,56 @@
+	<!-- Knapp- och menytexter -->
+	<!ENTITY phpkod "PHPkod">
+	
+	<!ENTITY phpkod.home "PHPportalen">
+	<!ENTITY phpkod.php "PHP">
+	<!ENTITY phpkod.code "Code">
+	<!ENTITY phpkod.inline "Inline">
+	<!ENTITY phpkod.man "Manuallänk">
+	<!ENTITY phpkod.welcome "Välkommen!">
+	<!ENTITY phpkod.quote "''Citat''">
+	<!ENTITY phpkod.list "Lista">
+	<!ENTITY phpkod.img "Bild">
+	<!ENTITY phpkod.url "Länk">
+	<!ENTITY phpkod.bold "Fet">
+	<!ENTITY phpkod.italic "Kursiv">
+	<!ENTITY phpkod.underline "Understruken">
+
+	<!ENTITY phpkod.color "Färg">
+	<!ENTITY phpkod.color.red "Röd">
+	<!ENTITY phpkod.color.blue "Blå">
+	<!ENTITY phpkod.color.green "Grön">
+	<!ENTITY phpkod.color.white "Vit">
+
+	<!ENTITY phpkod.size "Storlek">
+	<!ENTITY phpkod.size.tiny "Pytteliten">
+	<!ENTITY phpkod.size.small "Liten">
+	<!ENTITY phpkod.size.normal "Normal">
+	<!ENTITY phpkod.size.large "Stor">
+	<!ENTITY phpkod.size.huge "Enorm">
+	
+	<!ENTITY phpkod.smilies "Smilies">
+	<!ENTITY phpkod.smilie.veryhappy "Jätteglad">
+	<!ENTITY phpkod.smilie.smile "Ler">
+	<!ENTITY phpkod.smilie.sad "Ledsen">
+	<!ENTITY phpkod.smilie.surprised "Överraskad">
+	<!ENTITY phpkod.smilie.shocked "Shockad">
+	<!ENTITY phpkod.smilie.confused "Förbryllad">
+	<!ENTITY phpkod.smilie.cool "Cool">
+	<!ENTITY phpkod.smilie.laughing "Skrattar">
+	<!ENTITY phpkod.smilie.mad "Sur">
+	<!ENTITY phpkod.smilie.razz "Smaskig">
+	<!ENTITY phpkod.smilie.embarassed "Generad">
+	<!ENTITY phpkod.smilie.verysad "Jätteledsen">
+	<!ENTITY phpkod.smilie.verymad "Jättesur">
+	<!ENTITY phpkod.smilie.twistedevil "Skämtsamt elak">
+	<!ENTITY phpkod.smilie.rollingeyes "Rullar ögon">
+	<!ENTITY phpkod.smilie.wink "Skojar/blinkar">
+	<!ENTITY phpkod.smilie.exclamation "Utropstecken">
+	<!ENTITY phpkod.smilie.question "Frågetecken">
+	<!ENTITY phpkod.smilie.idea "Idé">
+	<!ENTITY phpkod.smilie.arrow "Uppåtpil">
+	<!ENTITY phpkod.smilie.neutral "Neutral">
+	<!ENTITY phpkod.smilie.mrgreen "Herr Grön">
+	<!ENTITY phpkod.smilie.semula "Semla">
+	
+	<!ENTITY phpkod.toolbar.name "PHPkod">

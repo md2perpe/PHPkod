@@ -1,0 +1,166 @@
+/* Popup-menyn */
+#phpkod-popup {
+	list-style-image: url(favicon.ico);
+}
+
+
+
+/* Textstilar */
+#phpkod-popup-bold, #phpkod-button-bold {
+	font-weight: bold;
+}
+
+#phpkod-popup-italic, #phpkod-button-italic {
+	font-style: italic;
+}
+
+#phpkod-popup-underline, #phpkod-button-underline {
+	text-decoration: underline;
+}
+
+
+
+#phpkod-popup-color, #phpkod-button-color {
+	color: red;
+}
+
+#phpkod-popup-color-blue {
+	color: blue;
+}
+
+#phpkod-popup-color-red {
+	color: red;
+}
+
+#phpkod-popup-color-green {
+	color: green;
+}
+
+#phpkod-popup-color-white {
+	color: white;
+	background: #999;
+}
+
+
+#phpkod-popup-size, #phpkod-button-size {
+	font-size: 80%;
+}
+
+#phpkod-popup-size-tiny {
+	font-size: 7px;
+}
+
+#phpkod-popup-size-small {
+	font-size: 9px;
+}
+
+#phpkod-popup-size-normal {
+	font-size: 12px;
+}
+
+#phpkod-popup-size-large {
+	font-size: 18px;
+}
+
+#phpkod-popup-size-huge {
+	font-size: 24px;
+}
+
+
+/* Smilies */
+#phpkod-popup-smilies, #phpkod-button-smilies {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_smile.gif);
+}
+
+#phpkod-popup-smilie-veryhappy {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_biggrin.gif);
+}
+
+#phpkod-popup-smilie-smile {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_smile.gif);
+}
+
+#phpkod-popup-smilie-sad {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_sad.gif);
+}
+
+#phpkod-popup-smilie-surprised {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_surprised.gif);
+}
+
+#phpkod-popup-smilie-shocked {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_eek.gif);
+}
+
+#phpkod-popup-smilie-confused {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_confused.gif);
+}
+
+#phpkod-popup-smilie-cool {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_cool.gif);
+}
+
+#phpkod-popup-smilie-laughing {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_lol.gif);
+}
+
+#phpkod-popup-smilie-mad {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_mad.gif);
+}
+
+#phpkod-popup-smilie-razz {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_razz.gif);
+}
+
+#phpkod-popup-smilie-embarassed {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_redface.gif);
+}
+
+#phpkod-popup-smilie-verysad {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_cry.gif);
+}
+
+#phpkod-popup-smilie-verymad {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_evil.gif);
+}
+
+#phpkod-popup-smilie-twistedevil {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_twisted.gif);
+}
+
+#phpkod-popup-smilie-rollingeyes {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_rolleyes.gif);
+}
+
+#phpkod-popup-smilie-wink {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_wink.gif);
+}
+
+#phpkod-popup-smilie-exclamation {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_exclaim.gif);
+}
+
+#phpkod-popup-smilie-question {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_question.gif);
+}
+
+#phpkod-popup-smilie-idea {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_idea.gif);
+}
+
+#phpkod-popup-smilie-arrow {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_arrow.gif);
+}
+
+#phpkod-popup-smilie-neutral {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_neutral.gif);
+}
+
+#phpkod-popup-smilie-mrgreen {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_mrgreen.gif);
+}
+
+#phpkod-popup-smilie-semula {
+	list-style-image: url(http://www.phpportalen.net/images/smiles/icon_semla.gif);
+}
+

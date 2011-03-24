@@ -1,0 +1,23 @@
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+
+	<Seq about="urn:mozilla:package:root">
+		<li resource="urn:mozilla:package:phpkod" />
+	</Seq>
+	
+	<Description about="urn:mozilla:package:phpkod">
+		<chrome:extension>true</chrome:extension>
+		<chrome:name>phpkod</chrome:name>
+		<chrome:displayName>PHPkod</chrome:displayName>
+	</Description>
+
+
+	<Seq about="urn:mozilla:overlays">
+		<li resource="chrome://browser/content/browser.xul" />
+	</Seq>
+	
+	<Seq about="chrome://browser/content/browser.xul">
+		<li>chrome://phpkod/content/overlay.xul</li>
+	</Seq>
+
+</RDF>

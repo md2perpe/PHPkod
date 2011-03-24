@@ -1,0 +1,7 @@
+<!ENTITY test "Testar mer...">
+
+	<!-- Knapp- och menytexter -->
+	<!ENTITY phpkod.php "PHP">
+	<!ENTITY phpkod.code "Code">
+	<!ENTITY phpkod.inline "Inline">
+	<!ENTITY phpkod.man "Manuallänk">
