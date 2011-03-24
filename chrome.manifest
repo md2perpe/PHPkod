@@ -1,0 +1,5 @@
+content phpkod chrome/content/
+locale phpkod sv_SE chrome/locale/
+skin phpkod default chrome/skin/
+
+overlay chrome://browser/content/browser.xul chrome://phpkod/content/overlay.xul

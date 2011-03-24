@@ -4,6 +4,7 @@
 	<Description about="urn:mozilla:install-manifest">
 
 		<em:id>{2ab31170-3af4-11d9-9669-0800200c9a66}</em:id>
+		<em:type>2</em:type>
 		<em:name>PHPkod</em:name>
 		<em:version>0.0.18.1</em:version>
 		<em:description>Lägger till en verktygsrad och en popupmeny med BB-kod specifik för PHPportalen</em:description>
